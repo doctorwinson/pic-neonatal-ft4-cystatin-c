@@ -1,0 +1,12 @@
+# Only the reproducibility source files are tracked.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/CITATION.cff
+!/requirements.txt
+!/analysis.py
+!/extract.sql
+!/figures.R
+!/cohort_flowchart.py
+!/cohort_config.json

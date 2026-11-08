@@ -1,0 +1,79 @@
+{
+  "figure_title": "",
+  "cohorts": [
+    {
+      "name": "",
+      "main_flow": [
+        {
+          "label": "PIC neonatal hospitalizations\nwith a recorded NICU-associated\nICU stay",
+          "n": 2662,
+          "wrap_width": 60
+        },
+        {
+          "label": "First eligible neonatal hospitalization\nper patient",
+          "n": 2656,
+          "wrap_width": 60
+        },
+        {
+          "label": "Same-time TSH and FT4\nExact positive values\nPostnatal age 72 h to <28 d",
+          "n": 1649,
+          "wrap_width": 60
+        },
+        {
+          "label": "Same-time cystatin C and creatinine\nPaired with thyroid tests within 6 h\nBoth panels at age 72 h to <28 d",
+          "n": 767,
+          "wrap_width": 60
+        },
+        {
+          "label": "Primary analysis\nFirst eligible paired observation\nper patient",
+          "n": 760,
+          "wrap_width": 60
+        }
+      ],
+      "exclusions": [
+        {
+          "after_step": 1,
+          "label": "Additional eligible hospitalizations",
+          "n": 6,
+          "wrap_width": 60
+        },
+        {
+          "after_step": 2,
+          "label": "No qualifying same-time TSH and FT4\nwithin the postnatal age window",
+          "n": 1007,
+          "wrap_width": 60
+        },
+        {
+          "after_step": 3,
+          "label": "No qualifying cystatin C / creatinine pair\nwithin 6 h and the postnatal age window",
+          "n": 882,
+          "wrap_width": 60
+        },
+        {
+          "after_step": 4,
+          "label": "Sequential exclusions\nThyroid diagnosis: 1\nCongenital urinary anomaly: 3\nPrior levothyroxine prescription: 3\nIdentified RRT / ECMO: 0",
+          "n": 7,
+          "wrap_width": 60
+        }
+      ],
+      "final_groups": []
+    }
+  ],
+  "layout": {
+    "main_w": 3.1,
+    "main_h": 0.95,
+    "exclusion_w": 3.5,
+    "exclusion_h": 1.15,
+    "exclusion_gap": 0.55,
+    "panel_margin": 0.35,
+    "main_y_start": 8.65,
+    "main_step_gap": 1.45,
+    "outcome_w": 1.4,
+    "outcome_gap": 0.2,
+    "fig_h": 7.4,
+    "y_min": 2.22,
+    "y_max": 9.27,
+    "font_size": 8.5,
+    "exclusion_font_size": 8.3
+  }
+}

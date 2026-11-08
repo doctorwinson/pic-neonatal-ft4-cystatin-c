@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite this software release."
+type: software
+title: "PIC Neonatal FT4–Cystatin C"
+authors:
+  - family-names: Yu
+    given-names: Xiaochan
+  - family-names: Gu
+    given-names: Weiguang
+  - family-names: Zheng
+    given-names: Zijun
+  - family-names: Wei
+    given-names: Zujian
+repository-code: "https://github.com/doctorwinson/pic-neonatal-ft4-cystatin-c"
+url: "https://github.com/doctorwinson/pic-neonatal-ft4-cystatin-c/releases/tag/v1.0.0"
+version: 1.0.0
+date-released: 2026-11-08
+license: MIT
+abstract: >-
+  Reproducibility code for the PIC database study of free thyroxine and
+  cystatin C in hospitalized neonates before and after creatinine adjustment.
+  PostgreSQL queries extract the cohort, Python performs the statistical
+  analyses, and R generates the statistical figures.
